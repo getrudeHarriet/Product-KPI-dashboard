@@ -5,7 +5,7 @@ import plotly.express as px
 # ---------- Load Data ----------
 @st.cache_data
 def load_data():
-    data = pd.read_csv("../data/product_data.csv", parse_dates=["date"])
+    data = pd.read_csv(r"C:\Users\Getrude\Desktop\product-kpi-dashboard\Product-KPI-dashboard\data\product_data.csv", parse_dates=["date"])
     data["month"] = data["date"].dt.to_period("M").astype(str)
     return data
 
