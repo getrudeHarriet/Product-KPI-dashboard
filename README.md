@@ -1,32 +1,52 @@
 # 📊 Product KPI Dashboard
 
 ## 📌 Project Overview
-This project is a **Product KPI Dashboard** built with **Python, Pandas, Plotly, and Streamlit**.  
-It tracks key performance indicators (KPIs) such as revenue, user growth, engagement, and churn.  
+The **Product KPI Dashboard** is an interactive analytics tool built with **Streamlit, Pandas, and Plotly**.  
+It enables product teams and decision-makers to monitor performance, track growth, and identify risks using key metrics such as **Revenue, Daily Active Users (DAU), New Users, and Churn Rate**.
 
-The dashboard provides an **interactive view** of product performance, useful for product managers and data teams to monitor growth and retention.
+This dashboard is designed to give both a **high-level overview** and **detailed insights** into product health.
 
 ---
 
-## 🎯 Key Features
-- **KPI Summary Cards**
-  - 💰 Total Revenue  
-  - 👥 Average Daily Active Users (DAU)  
-  - 🆕 Total New Users  
-  - 📉 Average Churn Rate  
+## 🎯 Key Metrics Tracked
 
-- **Interactive Charts**
-  - Revenue trend over time  
-  - New users per month  
-  - Daily active users trend  
-  - Churn rate over time  
+- **💰 Revenue**  
+  Total sales generated over time. This helps evaluate financial growth and the overall success of the product.
 
-- **Filters**
-  - Date range selection  
+- **👥 Daily Active Users (DAU)**  
+  The number of unique users interacting with the product daily. DAU is a strong measure of engagement and product stickiness.
+
+- **🆕 New Users**  
+  The count of users who signed up in a given period. This tracks acquisition and marketing effectiveness.
+
+- **📉 Churn Rate**  
+  The percentage of users who stop using the product. A critical measure for retention and long-term sustainability.
+
+---
+
+## 📸 Dashboard Screenshots
+
+### 1. Full Dashboard
+Overview of the KPI dashboard combining all metrics in one place.  
+![Dashboard Overview](https://github.com/getrudeHarriet/Product-KPI-dashboard/blob/main/docs/dashboard.png)
+
+### 2. Revenue Trend
+Line chart showing total revenue growth over time.  
+![Revenue Trend](https://github.com/getrudeHarriet/Product-KPI-dashboard/blob/main/docs/Revenue%20trend%20.png)
+
+### 3. New Users
+Bar chart showing new user signups per month.  
+![New Users](https://github.com/getrudeHarriet/Product-KPI-dashboard/blob/main/docs/New%20users%20per%20month.png)
+
+### 4. Churn Rate
+Area chart highlighting the percentage of users leaving the product.  
+![Churn Rate](https://github.com/getrudeHarriet/Product-KPI-dashboard/blob/main/docs/churn%20rate.png)
 
 ---
 
 ## 🗂️ Project Structure
+
+```
 product-kpi-dashboard/
 │
 ├── data/                # datasets (simulated or real)
@@ -46,5 +66,6 @@ product-kpi-dashboard/
 │
 ├── requirements.txt     # dependencies
 └── README.md            # project overview
+```
 
 
